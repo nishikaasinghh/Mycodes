@@ -1,0 +1,14 @@
+x=int(input("enter the first number:"))
+y=int(input("enter the second number:"))
+op=input("enter the operation:+,-,*,%,/: ")
+
+if op=='+':
+    print("result=", x+y)
+elif op=='-':
+    print("result=", x-y)
+elif op=='*':
+    print('result=', x*y)
+elif op=='/':
+    print("result=", x/y)
+else :
+    print("invalid operator")
